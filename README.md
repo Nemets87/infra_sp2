@@ -1,6 +1,6 @@
 # Проект **YaMDb** 
 
-#### **Стек**
+#### **Django & Docker Power**
 ![docker power](https://img.shields.io/docker/automated/nemets87/infra_sp2)
 ![django version](https://img.shields.io/badge/Django-2.2-green)
 
