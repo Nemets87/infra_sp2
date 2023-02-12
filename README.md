@@ -15,7 +15,6 @@ Api собирает отзывы пользователей на различн
 git clone https://github.com/Nemets87/infra_sp2
 
 ```
-
 Перейти в папку infra
 
 ```
