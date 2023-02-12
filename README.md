@@ -1,5 +1,9 @@
 # Проект **YaMDb** 
 
+#### **Стек**
+![docker power](https://img.shields.io/docker/automated/nemets87/infra_sp2)
+![django version](https://img.shields.io/badge/Django-2.2-green)
+
 Api собирает отзывы пользователей на различные произведения.
 
 # Как запустить проект чeрез Docker:
@@ -27,6 +31,20 @@ POSTGRES_USER=postgres = логин для подключения к базе д
 POSTGRES_PASSWORD=postgres = пароль для подключения к БД (установите свой)
 DB_HOST=db = название сервиса (контейнера)
 DB_PORT=5432 = порт для подключения к БД 
+```
+- проверяем requirements.txt (должен содержать необходимый минимум,важно наличие самих пакетов, а не версии)
+
+```
+asgiref==3.2.10
+Django==2.2.16
+django-filter==2.4.0
+djangorestframework==3.12.4
+djangorestframework-simplejwt==4.8.0
+gunicorn==20.0.4
+psycopg2-binary==2.8.6
+PyJWT==2.1.0
+pytz==2020.1
+sqlparse==0.3.1
 ```
 Работать мы будем в linux и все команды начинаются со слова sudo
 P.S в Windows sudo не нужно  
@@ -62,7 +80,12 @@ sudo docker-compose down -v
 http://localhost/api/v1/
 ```
 
+DockerHub это сила:
 
+```
+https://hub.docker.com/repository/docker/nemets87/infra_sp2/general
+
+```
 # Регистрация нового пользователя
 ```
 POST http://localhost/api/v1/auth/signup/
