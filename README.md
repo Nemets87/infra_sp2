@@ -116,3 +116,6 @@ POST http://localhost/api/v1/categories/
 
 ### **Авторы:**
 - [Sergey Fedorov + Power 45 Team ](https://github.com/Nemets87)
+
+### **Создан и проверен на: **
+- [Linux Mint 21.1 "Vera" ](https://linuxmint.com/download.php)

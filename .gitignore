@@ -123,8 +123,13 @@ venv.bak/
 # mypy
 .mypy_cache/
 .dmypy.json
-*.dumpPostrgeSQL.json
-*.fixtures.json
+.dumpPostrgeSQL.json
+.fixtures.json
+
+# top secret
+.infra/
+.dumpPostrgeSQL.json
+.fixtures.json
 
 # Pyre type checker
 .pyre/
